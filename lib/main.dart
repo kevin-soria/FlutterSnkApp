@@ -18,7 +18,7 @@ void main() {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.grade),
             title: Text('Popular'),
           ),
           BottomNavigationBarItem(
