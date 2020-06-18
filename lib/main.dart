@@ -14,9 +14,9 @@ void main() {
         ),
       ),
       Scaffold(
-        backgroundColor: Colors.grey[500],
+        backgroundColor: Colors.transparent,
         appBar: AppBar(
-          title: Text("Sneakers Den"),
+          title: Text("Sneak3rs Den"),
           backgroundColor: Colors.orange[400],
         ),
         body: Center(
