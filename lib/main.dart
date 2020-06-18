@@ -17,7 +17,7 @@ void main() {
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           title: Center(
-            child: Text("Sneakers Den"),
+            child: Text("SnkrsDen App Under Construction!"),
           ),
           backgroundColor: Colors.orange[400],
         ),
