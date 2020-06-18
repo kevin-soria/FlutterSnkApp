@@ -26,7 +26,7 @@ void main() {
             title: Text('Search'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.school),
+            icon: Icon(Icons.group),
             title: Text('Dens'),
           ),
         ],
