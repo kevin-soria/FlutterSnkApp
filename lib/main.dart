@@ -20,7 +20,8 @@ void main() {
           backgroundColor: Colors.orange[400],
         ),
         body: Center(
-          child: Image(image: AssetImage('images/snkrs-logo-blacks.png')),
+          child:
+              Image(image: AssetImage('images/snkrs-logo whitefont png.png')),
         ),
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
