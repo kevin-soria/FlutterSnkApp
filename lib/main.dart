@@ -16,11 +16,11 @@ void main() {
       Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
-          title: Text("Sneak3rs Den"),
+          title: Text("Sneakers Den"),
           backgroundColor: Colors.orange[400],
         ),
         body: Center(
-          child: Image(image: AssetImage('Images/snkrs-logo-blacks.png')),
+          child: Image(image: AssetImage('images/snkrs-logo-blacks.png')),
         ),
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
