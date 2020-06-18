@@ -22,7 +22,7 @@ void main() {
             title: Text('Popular'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.business),
+            icon: Icon(Icons.grid_on),
             title: Text('Search'),
           ),
           BottomNavigationBarItem(
