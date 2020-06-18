@@ -16,7 +16,9 @@ void main() {
       Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
-          title: Text("Sneakers Den"),
+          title: Center(
+            child: Text("Sneakers Den"),
+          ),
           backgroundColor: Colors.orange[400],
         ),
         body: Center(
@@ -26,16 +28,16 @@ void main() {
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
+              icon: Icon(Icons.group),
+              title: Text('Dens'),
+            ),
+            BottomNavigationBarItem(
               icon: Icon(Icons.grade),
               title: Text('Popular'),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.grid_on),
               title: Text('Search'),
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.group),
-              title: Text('Dens'),
             ),
           ],
         ),
